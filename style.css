@@ -1,0 +1,127 @@
+/* titre principale en rouge */
+h1 {
+    color: black;
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    
+}
+
+ul li {
+    display: inline;
+    font-weight: 700;
+    font-size: 130%;
+    padding-left: 100px;
+padding-right: 250px;
+
+    
+    
+     
+
+}
+#fond {
+    background-image: url("banner1.jpg") ;
+    height: 100%;
+    background-size: cover;
+}
+h2 {
+    text-align: center;
+
+}
+#Fondit {
+    background-color: black;
+    height: 100%;
+    background-size: 100%;
+    
+}
+.questions{
+   float: left;
+    margin-left: 5px;
+    margin-right: 250px;
+    background-color: #0681f5;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+.reponse{
+   float: right;
+    margin-left: 500px;
+    margin-right: 5px;
+    background-color: #e4dede;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.exeption{
+    float: right;
+     margin-left: 500px;
+     margin-right: 5px;
+     background-color: #e4dede;
+     border-radius: 20px;
+     padding-bottom: 20px;
+     padding-top: 0px;
+     margin-top: 100px;
+     margin-bottom: 45px;
+ }
+ .encore{
+    float: right;
+    margin-left: 500px;
+    margin-right: 5px;
+    background-color: #e4dede;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-top: 70px;
+    margin-bottom: 45px;
+ }
+.depuis {
+   float: left;
+    margin-left: 5px;
+    margin-right: 250px;
+    background-color: #0084ff;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+.pour{
+    float: left;
+    margin-left: 0px;
+    margin-right: 50px;
+    background-color: #0084ff;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-top: 100px;
+    margin-bottom: 35px;
+
+}
+.dynamisme {
+    float: right;
+margin-left: 500px;
+margin-right: 5px;
+background-color: #e4dede;
+border-radius: 20px;
+padding-bottom: 20px;
+padding-top: 1px;
+margin-top: 20px;
+margin-bottom: 45px;
+margin-top: 130px;
+}
+.oui{
+    float: right;
+    margin-left: 500px;
+    margin-right: 5px;
+    background-color: #e4dede;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+  margin-top: 100px;
+}
