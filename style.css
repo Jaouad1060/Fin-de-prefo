@@ -1,26 +1,55 @@
 /* titre principale en rouge */
+
+body{
+    background-color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#194248;
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 25px;
+    display: inline;
+    
+}
+ul li a:hover{color: rgb(11, 224, 136);
+}
+
+ul{
+    margin: 0px;
+}
+
+
+
+
 h1 {
-    color: black;
+    color: #194248;
     text-align: center;
     font-family:  Arial, Helvetica, sans-serif;
     font-weight: 800;
+    margin: 0;
+    padding: 0;
+    font-size: 62px;
+    
     
 }
 
 ul li {
-    display: inline;
+    text-align: left;
     font-weight: 700;
     font-size: 130%;
-    padding-left: 100px;
-padding-right: 250px;
-
+    padding-left: 0px;
+padding-right: 20px;
+display: inline;
     
     
      
 
 }
 #fond {
-    background-image: url("banner1.jpg") ;
+    background-image: url(./Media/ciel.jpg);
     height: 100%;
     background-size: cover;
 }
@@ -29,38 +58,83 @@ h2 {
 
 }
 #Fondit {
-    background-color: black;
-    height: 100%;
-    background-size: 100%;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    height: 2410px;
+    background-size: cover;
     
 }
 .questions{
    float: left;
-    margin-left: 5px;
+    margin-left: 30px;
     margin-right: 250px;
-    background-color: #0681f5;
+    background-color: #32af2d;
     border-radius: 10px;
     padding-bottom: 20px;
     padding-top: 0px;
-    margin-top: 45px;
+    margin-top: 55px;
     margin-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .reponse{
    float: right;
     margin-left: 500px;
-    margin-right: 5px;
-    background-color: #e4dede;
+    margin-right: 30px;
+    background-color: #ffffff;
     border-radius: 20px;
     padding-bottom: 20px;
     padding-top: 1px;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 45px;
+
 }
+.reponse1{
+    float: right;
+    margin-left: 500px;
+    margin-right: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 1px;
+
+}
+.reponse2{
+    float: right;
+    margin-left: 500px;
+    margin-right: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    margin-top: 150px;
+    margin-bottom: 45px;
+
+
+
+}
+
+.questions1{
+    float: left;
+    margin-left: 30px;
+    margin-right: 250px;
+    background-color: #32af2d;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
 .exeption{
     float: right;
      margin-left: 500px;
-     margin-right: 5px;
-     background-color: #e4dede;
+     margin-right: 30px;
+     background-color: #ffffff;
      border-radius: 20px;
      padding-bottom: 20px;
      padding-top: 0px;
@@ -70,8 +144,8 @@ h2 {
  .encore{
     float: right;
     margin-left: 500px;
-    margin-right: 5px;
-    background-color: #e4dede;
+    margin-right: 30px;
+    background-color: #ffffff;
     border-radius: 20px;
     padding-bottom: 20px;
     padding-top: 0px;
@@ -80,32 +154,36 @@ h2 {
  }
 .depuis {
    float: left;
-    margin-left: 5px;
+    margin-left: 30px;
     margin-right: 250px;
-    background-color: #0084ff;
+    background-color: #32af2d;
     border-radius: 10px;
     padding-bottom: 20px;
     padding-top: 0px;
     margin-top: 80px;
     margin-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .pour{
     float: left;
-    margin-left: 0px;
+    margin-left: 30px;
     margin-right: 50px;
-    background-color: #0084ff;
+    background-color: #32af2d;
     border-radius: 10px;
     padding-bottom: 20px;
     padding-top: 0px;
     margin-top: 100px;
     margin-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 .dynamisme {
     float: right;
 margin-left: 500px;
-margin-right: 5px;
-background-color: #e4dede;
+margin-right: 30px;
+background-color: #ffffff;
 border-radius: 20px;
 padding-bottom: 20px;
 padding-top: 1px;
@@ -116,8 +194,8 @@ margin-top: 130px;
 .oui{
     float: right;
     margin-left: 500px;
-    margin-right: 5px;
-    background-color: #e4dede;
+    margin-right: 30px;
+    background-color: #ffffff;
     border-radius: 20px;
     padding-bottom: 20px;
     padding-top: 1px;
@@ -125,3 +203,118 @@ margin-top: 130px;
     margin-bottom: 45px;
   margin-top: 100px;
 }
+
+.entreprise{
+    color: #000000;
+    
+}
+.Coordonnées{   
+    color: black;
+    text-align: center;
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding-top: 50px;
+    
+    
+}
+.image{
+    border-left-style: solid;
+    margin-left: 600px;
+    border-left-width: 0px;
+    
+}
+.principale{
+    color: black;
+    text-align: center;
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    
+    
+}
+.dev{
+    border-left-style: solid;
+    margin-left: 600px;
+    border-left-width: 0px;
+    
+}
+    
+#fonddes{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+        height: 2500px;
+        background-size: cover;
+
+        
+}
+.adress{
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.ngau{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#visites{
+    background-color: #6f8a97af;
+    background-size: cover;
+    
+    padding-bottom: 10px;
+    
+   
+    
+}
+
+.expo{
+    border-left-style: solid;
+    margin-left: 5px;
+    border-left-width: 0px;
+    margin-top: 50px;
+}
+
+body{
+    padding: 0;
+    margin: 0 ;
+}
+.textexpo{
+    text-align: left;
+    margin-top: 0px;
+    padding-left: 5px;
+    font-size: 22px;
+    padding: 5px;
+
+}
+.expo{
+    display: flex;
+    
+    margin-right: 500px;
+}
+#fondexpo{
+    background-color: #F4D03F;
+background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+
+    padding-bottom: 90px;
+}
+ .finexpo{
+    text-align: right;
+ }
+
+.igexpo{
+    
+    float: left;
+    padding-left: 1200px;
+}
+.imgexpo1{
+    margin-left: 40px;
+}
+#con{
+    background-image: url(./Media/tablette4.png);
+    
+    
+}
+ .titreconcu{
+    
+padding-right: 200px;
+ }
